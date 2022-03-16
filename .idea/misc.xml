@@ -7,6 +7,9 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2346014492753623" />
         <entry key="app/src/main/res/layout/activity_todo_list.xml" value="0.25" />
         <entry key="app/src/main/res/layout/card_view_design.xml" value="0.2346014492753623" />
+        <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.2864583333333333" />
+        <entry key="app/src/main/res/layout/fragment_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_list.xml" value="0.13958333333333334" />
         <entry key="app/src/main/res/layout/recycler_view_item.xml" value="0.2346014492753623" />
       </map>
     </option>
@@ -16,5 +19,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>
