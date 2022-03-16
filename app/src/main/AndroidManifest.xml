@@ -11,18 +11,12 @@
         android:theme="@style/Theme.MyTodoListApp">
         <activity
             android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ActivityAddItem"
-            android:exported="false" />
-        <activity
-            android:name=".ActivityListTodo"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="true" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
     </application>
 

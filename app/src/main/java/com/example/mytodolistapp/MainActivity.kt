@@ -9,8 +9,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val uuid: String = ""
+        val status: String = ""
+        val title: String = ""
+        val description: String = ""
+
         val fm: FragmentManager = supportFragmentManager
-        fm.beginTransaction().replace(R.id.fragment_list, FragmentList()).commit()
-        fm.beginTransaction().replace(R.id.fragment_item, FragmentItem()).commit()
+        fm.beginTransaction().replace(R.id.fragment_list, FragmentList.newInstance(uuid, status, title, description)).commit()
+        fm.beginTransaction().replace(R.id.fragment_item, FragmentItem.newInstance(uuid, status, title, description)).commit()
     }
 }
